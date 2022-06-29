@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    html, body {background-color:#385496;
+ Width:100%
+  height: 100%;
+}
+h1,h2,h4,h5,h6{color:gray;
+              text-align:center; 
+                 }
+                
+
+button {
+  background-color: #1e173d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 2px;
+  cursor: pointer;
+  border-radius: 30px; }
+  .circular_image { 
+margin-left: 125px; 
+margin-top: 2px; 
+width: 50%; 
+height: 40%; 
+      border:2px #4f0094;
+border-radius: 50%; 
+background-color:#454503;display:inline-block; 
+}
+
+
+a{color:white ;
+}
+image:{width:400px;
+      height: 400px;
+      border-radius:  50%;
+      }
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing;
+  border-radius:12px ;}
+footer,header{text-align:center; 
+     padding: 4px;
+      background-color:#000040; 
+      color:#385496;
+             border-radius:12px; 
+              inline-block;
+ cursor: pointer;}
+    Ul{overflow:hidden;
+  border-radius:5px;}
+li{display:inline-block;} 
+    </style >
+</head>
+<body>
+  <header>
+  <!--HOME/ LANDING PAGE-->
+  <!--nav bar section--><ul>
+<li class =nav-links>
+  <a href ="index.html">About me</a></li>
+    <li class=nav-links><a href ="contact.html">Contact me</a></li>
+    <li class= nav-links><a href ="login.html">Log in</a></li>
+    <li class =nav-links ><a href ="registration.html">Registration </a></li>
+  </ul>
+  </header>
+  <form action="mailto:oyedepotaofikat@gmail.com">
+<label for" name">Name</label>
+    <br>
+<input type= "text"id="name " placeholder="enter your name ">
+    <br>
+<label for"email">Email</label>
+    <br>
+ <input type="text"id="email"placeholder="@gmail.com">   
+    <br>
+<label for"leave me a message">leave me a message </label><br>
+<input type="text"id="leave me a message">
+<br>
+<button>submit </button>
+  </form>
+    
+      <p>Click <a href ="login.html">here</a> to check more of what I can do</p>
+      <footer>
+  <p>like what you see?
+  <a href="mailto:oyedepotaofikat@gmail.com">mail Taofikat</a></p>
+    </footer>
+</body>
+</html>
