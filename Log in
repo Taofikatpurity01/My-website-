@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style >
+    h1{color:white; }body{background-color:#385496;
+}
+
+a{color: white ; }
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-sizing: border-box;}
+    footer, header {tex-align:center; 
+     padding: 4px;
+      background-color:#000040; 
+      color:#385496; 
+                   Border-radius:12px;}
+    Ul {overflow:hidden;}
+    li{display:inline-block;
+      border:5px;
+      }
+    
+button {
+  background-color: #1e173d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px; }
+    </style>
+</head>
+
+<body>
+  <header>
+  <!--HOME/ LANDING PAGE-->
+  <!--nav bar section-->
+  <ul>
+<li class =nav-links><a href ="index.html">About me</a></li >
+    <li class=nav-links><a href ="contact.html">Contact me</a></li>
+    <li class=nav-links><a href ="login.html">Log in</a></li>
+    <li class =nav-links ><a href ="registration.html">Registration </a></li>
+  <ul>
+  </header>
+  <h1>Hi 👋,welcome back</h1>
+<form>
+<label for"email:">Email</label><br>
+ <input type="text"id="email"placeholder="@gmail.com">   
+  <br>
+<label for "password">Password:</label>
+    <br>
+    <input type="text"id="password"placeholder=" Enter your password">
+  <br>
+
+<button>submit</button><br>
+  <p>Don't have an account?
+  <a href="registration.html">sign in</a></p>
+  </form>
+  <footer>
+  <p>like what you see?
+  <a href="mailto:oyedepotaofikat@gmail.com">mail Taofikat</a></p>
+  </footer>
+</body>
+
+</html>
